@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'voa2000/packer:latest'
+      image 'goforgold/build-container:latest'
     }
   }
   stages {
